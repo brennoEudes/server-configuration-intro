@@ -20,7 +20,6 @@ app.post("/", (req, res) => {
   return res.status(201).json(entry);
 });
 
-/*
 app.get("/", (req, res) => {
   return res.status(200).json(data);
 });
@@ -60,7 +59,7 @@ app.put("/:idUser", (req, res) => {
   data.push(updatedUser);
 
   return res.status(200).json(updatedUser);
-}); */
+});
 
 app.listen(4000, () => {
   console.log("Server up and running on port: 4000");
